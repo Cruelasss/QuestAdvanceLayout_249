@@ -79,3 +79,8 @@ fun AktivitasPertama(modifier: Modifier = Modifier) {
                 }
             }
         }
+        // Spacer untuk mendorong copyright ke bawah
+        Spacer(modifier = Modifier.weight(1f))
+
+
+
