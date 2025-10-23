@@ -113,3 +113,15 @@ fun AktivitasPertama(modifier: Modifier = Modifier) {
                         color = Color.White,
                         modifier = Modifier.padding(bottom = 10.dp)
                     )
+                    // Penambahan No HP
+                    Text(
+                        text = stringResource(id = R.string.nomor),
+                        fontSize = 16.sp,
+                        color = Color.White,
+                        modifier = Modifier.padding(bottom = 10.dp)
+                    )
+                }
+            }
+        }
+
+        // Spacer antar kartu
