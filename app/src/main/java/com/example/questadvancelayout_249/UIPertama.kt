@@ -127,3 +127,10 @@ fun AktivitasPertama(modifier: Modifier = Modifier) {
         // Spacer antar kartu
         Spacer(modifier = Modifier.height(10.dp))
 
+        // Card 3 (Hijau) - Format Asli + No HP
+        Card(
+            modifier = Modifier
+                .fillMaxWidth(), // Padding 12.dp dihapus
+            colors = CardDefaults.cardColors(
+                containerColor = Color.Green // Diubah ke Hijau
+            )
