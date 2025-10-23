@@ -83,9 +83,11 @@ fun AktivitasPertama(modifier: Modifier = Modifier) {
         Spacer(modifier = Modifier.weight(1f))
         // Box untuk copyright di bagian bawah layar
         Box(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(bottom = 16.dp),
+            contentAlignment = Alignment.BottomCenter
 
-            )
-        }
     }
 }
 
