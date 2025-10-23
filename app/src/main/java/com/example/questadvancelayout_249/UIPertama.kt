@@ -98,3 +98,12 @@ fun AktivitasPertama(modifier: Modifier = Modifier) {
                         .size(size = 100.dp)
                         .padding(all = 5.dp)
                 )
+                Column {
+                    Text(
+                        text = stringResource(id = R.string.nama),
+                        fontSize = 38.sp,
+                        fontFamily = FontFamily.Cursive,
+                        fontWeight = FontWeight.Bold,
+                        color = Color.White,
+                        modifier = Modifier.padding(bottom = 10.dp)
+                    )
