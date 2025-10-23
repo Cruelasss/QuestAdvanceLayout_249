@@ -82,3 +82,10 @@ fun AktivitasPertama(modifier: Modifier = Modifier) {
         Spacer(modifier = Modifier.height(10.dp))
 
         // Card 2 (Biru) - Format Asli + No HP
+        Card(
+            modifier = Modifier
+                .fillMaxWidth(), // Padding 12.dp dihapus
+            colors = CardDefaults.cardColors(
+                containerColor = Color.Blue
+            )
+        ) {
