@@ -125,3 +125,5 @@ fun AktivitasPertama(modifier: Modifier = Modifier) {
         }
 
         // Spacer antar kartu
+        Spacer(modifier = Modifier.height(10.dp))
+
