@@ -89,3 +89,4 @@ fun AktivitasPertama(modifier: Modifier = Modifier) {
                 containerColor = Color.Blue
             )
         ) {
+            Row(verticalAlignment = Alignment.CenterVertically) {
