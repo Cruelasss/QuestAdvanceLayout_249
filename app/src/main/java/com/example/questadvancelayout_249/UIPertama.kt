@@ -28,7 +28,7 @@ import androidx.compose.ui.unit.sp
 fun AktivitasPertama(modifier: Modifier = Modifier) {
     Column(
         modifier = modifier
-            .padding(top = 100.dp)
+            .padding(top = 40.dp, start = 16.dp, end = 16.dp)
             .fillMaxSize(),
         horizontalAlignment = Alignment.CenterHorizontally
     )
@@ -43,14 +43,11 @@ fun AktivitasPertama(modifier: Modifier = Modifier) {
             fontSize = 22.sp
         )
         Spacer(modifier = Modifier.height(height = 25.dp))
-
-        // Card untuk informasi profil
         Card(
             modifier = Modifier
-                .fillMaxWidth()
-                .padding(all = 12.dp),
+                .fillMaxWidth(), // Padding 12.dp dihapus agar mepet
             colors = CardDefaults.cardColors(
-                containerColor = Color.Blue
+                containerColor = Color.Black // Diubah ke Hitam
             )
         ) {
             Row(verticalAlignment = Alignment.CenterVertically) {
@@ -80,24 +77,8 @@ fun AktivitasPertama(modifier: Modifier = Modifier) {
                 }
             }
         }
-        // Spacer untuk mendorong copyright ke bawah
-        Spacer(modifier = Modifier.weight(1f))
-        // Box untuk copyright di bagian bawah layar
-        Box(
-            modifier = Modifier
-                .fillMaxWidth()
-                .padding(bottom = 16.dp),
-            contentAlignment = Alignment.BottomCenter
-        ) {
-            Text(
-                text = stringResource(id = R.string.copy)
-            )
-        }
-    }
-}
 
+        // Spacer antar kartu
+        Spacer(modifier = Modifier.height(10.dp))
 
-
-
-
-
+        // Card 2 (Biru) - Format Asli + No HP
