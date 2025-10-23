@@ -134,3 +134,5 @@ fun AktivitasPertama(modifier: Modifier = Modifier) {
             colors = CardDefaults.cardColors(
                 containerColor = Color.Green // Diubah ke Hijau
             )
+        ) {
+            Row(verticalAlignment = Alignment.CenterVertically) {
