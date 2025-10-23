@@ -50,11 +50,11 @@ fun AktivitasPertama(modifier: Modifier = Modifier) {
                 .fillMaxWidth()
                 .padding(all = 12.dp),
             colors = CardDefaults.cardColors(
-                containerColor = Color.DarkGray
+                containerColor = Color.Blue
             )
         ) {
             Row(verticalAlignment = Alignment.CenterVertically) {
-                val gambar = painterResource(id = R.drawable.UMY)
+                val gambar = painterResource(id = R.drawable.umy)
                 Image(
                     painter = gambar,
                     contentDescription = null,
@@ -67,13 +67,13 @@ fun AktivitasPertama(modifier: Modifier = Modifier) {
                         text = stringResource(id = R.string.nama),
                         fontSize = 38.sp,
                         fontFamily = FontFamily.Cursive,
-                        color = Color.White,
+                        color = Color.Yellow,
                         modifier = Modifier.padding(bottom = 10.dp)
                     )
                     Text(
                         text = stringResource(id = R.string.alamat),
                         fontSize = 16.sp,
-                        color = Color.White,
+                        color = Color.Yellow,
                         modifier = Modifier.padding(bottom = 10.dp)
                     )
                 }
@@ -96,7 +96,7 @@ fun AktivitasPertama(modifier: Modifier = Modifier) {
 }
 
 
-}
+
 
 
 
