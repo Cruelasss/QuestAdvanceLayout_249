@@ -42,3 +42,14 @@ fun AktivitasPertama(modifier: Modifier = Modifier) {
             text = stringResource(id = R.string.univ),
             fontSize = 22.sp
         )
+        Spacer(modifier = Modifier.height(height = 25.dp))
+
+        // Card untuk informasi profil
+        Card(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(all = 12.dp),
+            colors = CardDefaults.cardColors(
+                containerColor = Color.DarkGray
+            )
+        ) {
