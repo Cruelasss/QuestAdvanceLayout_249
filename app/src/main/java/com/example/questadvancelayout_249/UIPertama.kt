@@ -159,3 +159,16 @@ fun AktivitasPertama(modifier: Modifier = Modifier) {
                         color = Color.White,
                         modifier = Modifier.padding(bottom = 10.dp)
                     )
+                    // Penambahan No HP
+                    Text(
+                        text = stringResource(id = R.string.nomor),
+                        fontSize = 16.sp, // Style disamakan dengan alamat
+                        color = Color.White, // Style disamakan dengan alamat
+                        modifier = Modifier.padding(bottom = 10.dp)
+                    )
+                }
+            }
+        }
+
+
+
